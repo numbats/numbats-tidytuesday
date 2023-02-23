@@ -1,6 +1,3 @@
-# numbats-tidytuesday
-This is a repo containing data on numbats from the Atlas of Living Australia, for a Tidy Tuesday challenge.
-
 # Numbats in Australia
 
 The data this week comes from the [Atlas of Living Australia](https://www.ala.org.au). 
