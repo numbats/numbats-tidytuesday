@@ -4,7 +4,7 @@ The data this week comes from the [Atlas of Living Australia](https://www.ala.or
 
 This [numbat page](https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/6c72d199-f0f1-44d3-8197-224a2f7cff5f) talks about these endangered species in greater detail.
 
-A [csv]() file of numbat sightings is provided. The code to refresh the data is [here](code/data.R). 
+A [csv](data/numbats.csv) file of numbat sightings is provided. The code to refresh the data is [here](code/data.R). 
 
 Questions that would be interesting to answer are:
 
@@ -15,6 +15,6 @@ Questions that would be interesting to answer are:
 - Are numbats seen more on sunny and warm days than cloudy, wet, cold days?
 - Do sightings happen more on week days than weekends?
 
-
+![](numbat1.jpg) ![](numbat2.jpg)
 
 Credit: [Di Cook and H. Sherry Zhang](@visnut@aus.social)
