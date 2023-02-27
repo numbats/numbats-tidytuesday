@@ -61,4 +61,25 @@ numbats %>%
   geom_bar() +
   xlim(c(2005, 2023))
 
+# Weather related sighting
+numbats %>% 
+  filter(dryandra == "yes") %>%
+  filter(!is.na(prcp)) %>%
+  count(prcp > 0)
 
+numbats %>% 
+  filter(dryandra == "yes") %>%
+  ggplot(aes(x=prcp)) +
+  geom_histogram()
+
+numbats %>% 
+  filter(dryandra == "yes") %>%
+  ggplot(aes(x=prcp, y=tmax, label=dataResourceName)) +
+    geom_point()
+ggplotly()
+
+numbats %>% 
+  filter(dryandra == "yes") %>%
+  ggplot(aes(x=tmin, y=tmax, label=dataResourceName)) +
+  geom_point()
+ggplotly()
