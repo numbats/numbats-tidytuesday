@@ -17,4 +17,4 @@ Questions that would be interesting to answer are:
 
 ![](numbat1.jpg) ![](numbat2.jpg)
 
-Credit: [Di Cook and H. Sherry Zhang](@visnut@aus.social) and Di Cook took these photos on a recent visit to WA.
+Credit: [Di Cook](@visnut@aus.social) and [H. Sherry Zhang](huizezhang-sherry) and Di Cook took these photos on a recent visit to WA.
