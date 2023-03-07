@@ -58,3 +58,9 @@ numbats <- numbats %>%
          tmin = ifelse(dryandra == "no", NA, tmin)) %>%
   select(-id)
 write_csv(numbats, file="numbats.csv")
+
+# Getting the maps
+all_loc <- get_map(c(115, -39, 151, -22))
+wa <- get_map(c(114, -36, 120, -30))
+save(all_loc, file="all_loc.rda")
+save(wa, file="wa.rda")
